@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GAMEZONE - เกม PC</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="chatbot.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="navbar">
+<a class="logo" href="index.html">
+        GAME<span>ZONE</span>
+</a>
+<nav class="menu">
+<a href="index.html">หน้าแรก</a>
+<a href="mobile-games.html">เกมมือถือ</a>
+<a href="rankingmobile_and_pc_games.html">
+            จัดอันดับ Mobile &amp; PC
+        </a>
+<a class="active" href="pc-games.html">
+            เกม PC
+        </a>
+</nav>
+</header>
+<section class="page-header">
+<p>GAMEZONE PC</p>
+<h1>
+        💻 เกม PC
+    </h1>
+<span>
+        รวมเกม PC ที่น่าสนใจ 20 เกม
+    </span>
+</section>
+<section class="section">
+<div class="search-box">
+<input id="pcSearch" placeholder="🔎 ค้นหาเกม PC..." type="text"/>
+</div>
+<div class="filter-buttons">
+<button class="pc-filter active" data-filter="all">
+            ทั้งหมด
+        </button>
+<button class="pc-filter" data-filter="racing">
+            RACING
+        </button>
+<button class="pc-filter" data-filter="action">
+            ACTION
+        </button>
+<button class="pc-filter" data-filter="simulation">
+            SIMULATION
+        </button>
+<button class="pc-filter" data-filter="rpg">
+            RPG
+        </button>
+<button class="pc-filter" data-filter="adventure">
+            ADVENTURE
+        </button>
+<button class="pc-filter" data-filter="sport">
+            SPORT
+        </button>
+</div>
+<div class="game-grid" id="pcGames">
+<!-- 1 -->
+<a class="game-card pc-game" data-category="racing" data-name="assetto corsa evo" href="game-detail.html?game=assetto-corsa-evo">
+<div class="game-cover red-cover">
+                🏎️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    Assetto Corsa EVO
+                </h3>
+<p>
+                    เกมแข่งรถสมจริง
+                </p>
+</div>
+</a>
+<!-- 2 -->
+<a class="game-card pc-game" data-category="racing" data-name="beamng drive" href="game-detail.html?game=beamng-drive">
+<div class="game-cover blue-cover">
+                🚗
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    BeamNG.drive
+                </h3>
+<p>
+                    เกมขับรถพร้อมฟิสิกส์สมจริง
+                </p>
+</div>
+</a>
+<!-- 3 -->
+<a class="game-card pc-game" data-category="racing" data-name="forza motorsport" href="game-detail.html?game=forza-motorsport">
+<div class="game-cover orange-cover">
+                🏁
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    Forza Motorsport
+                </h3>
+<p>
+                    เกมแข่งรถสมจริง
+                </p>
+</div>
+</a>
+<!-- 4 -->
+<a class="game-card pc-game" data-category="racing" data-name="automobilista 2" href="game-detail.html?game=automobilista-2">
+<div class="game-cover green-cover">
+                🏎️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    Automobilista 2
+                </h3>
+<p>
+                    Racing Simulator
+                </p>
+</div>
+</a>
+<!-- 5 -->
+<a class="game-card pc-game" data-category="simulation" data-name="the sims 4" href="game-detail.html?game=the-sims-4">
+<div class="game-cover purple-cover">
+                🏠
+            </div>
+<div class="game-info">
+<span class="tag">
+                    SIMULATION
+                </span>
+<h3>
+                    The Sims 4
+                </h3>
+<p>
+                    เกมจำลองชีวิต
+                </p>
+</div>
+</a>
+<!-- 6 -->
+<a class="game-card pc-game" data-category="simulation" data-name="euro truck simulator 2" href="game-detail.html?game=euro-truck-simulator-2">
+<div class="game-cover gray-cover">
+                🚛
+            </div>
+<div class="game-info">
+<span class="tag">
+                    SIMULATION
+                </span>
+<h3>
+                    Euro Truck Simulator 2
+                </h3>
+<p>
+                    เกมจำลองการขับรถบรรทุก
+                </p>
+</div>
+</a>
+<!-- 7 -->
+<a class="game-card pc-game" data-category="adventure" data-name="minecraft" href="game-detail.html?game=minecraft">
+<div class="game-cover orange-cover">
+                ⛏️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ADVENTURE
+                </span>
+<h3>
+                    Minecraft
+                </h3>
+<p>
+                    เกมสร้างโลกและผจญภัย
+                </p>
+</div>
+</a>
+<!-- 8 -->
+<a class="game-card pc-game" data-category="action" data-name="grand theft auto v" href="game-detail.html?game=grand-theft-auto-v">
+<div class="game-cover red-cover">
+                🎮
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ACTION
+                </span>
+<h3>
+                    Grand Theft Auto V
+                </h3>
+<p>
+                    เกม Open World
+                </p>
+</div>
+</a>
+<!-- 9 -->
+<a class="game-card pc-game" data-category="racing" data-name="f1 25" href="game-detail.html?game=f1-25">
+<div class="game-cover blue-cover">
+                🏎️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    F1 25
+                </h3>
+<p>
+                    เกมแข่งรถ Formula 1
+                </p>
+</div>
+</a>
+<!-- 10 -->
+<a class="game-card pc-game" data-category="action" data-name="cyberpunk 2077" href="game-detail.html?game=cyberpunk-2077">
+<div class="game-cover purple-cover">
+                🤖
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ACTION
+                </span>
+<h3>
+                    Cyberpunk 2077
+                </h3>
+<p>
+                    เกม Open World แนวไซไฟ
+                </p>
+</div>
+</a>
+<!-- 11 -->
+<a class="game-card pc-game" data-category="action" data-name="red dead redemption 2" href="game-detail.html?game=red-dead-redemption-2">
+<div class="game-cover red-cover">
+                🤠
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ACTION
+                </span>
+<h3>
+                    Red Dead Redemption 2
+                </h3>
+<p>
+                    เกม Open World ผจญภัย
+                </p>
+</div>
+</a>
+<!-- 12 -->
+<a class="game-card pc-game" data-category="rpg" data-name="elden ring" href="game-detail.html?game=elden-ring">
+<div class="game-cover purple-cover">
+                ⚔️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RPG
+                </span>
+<h3>
+                    Elden Ring
+                </h3>
+<p>
+                    เกม Action RPG แฟนตาซี
+                </p>
+</div>
+</a>
+<!-- 13 -->
+<a class="game-card pc-game" data-category="adventure" data-name="hogwarts legacy" href="game-detail.html?game=hogwarts-legacy">
+<div class="game-cover blue-cover">
+                🪄
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ADVENTURE
+                </span>
+<h3>
+                    Hogwarts Legacy
+                </h3>
+<p>
+                    เกมผจญภัยในโลกเวทมนตร์
+                </p>
+</div>
+</a>
+<!-- 14 -->
+<a class="game-card pc-game" data-category="action" data-name="resident evil 4" href="game-detail.html?game=resident-evil-4">
+<div class="game-cover red-cover">
+                🧟
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ACTION
+                </span>
+<h3>
+                    Resident Evil 4
+                </h3>
+<p>
+                    เกม Action และเอาชีวิตรอด
+                </p>
+</div>
+</a>
+<!-- 15 -->
+<a class="game-card pc-game" data-category="simulation" data-name="microsoft flight simulator" href="game-detail.html?game=microsoft-flight-simulator">
+<div class="game-cover blue-cover">
+                ✈️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    SIMULATION
+                </span>
+<h3>
+                    Microsoft Flight Simulator
+                </h3>
+<p>
+                    เกมจำลองการบิน
+                </p>
+</div>
+</a>
+<!-- 16 -->
+<a class="game-card pc-game" data-category="simulation" data-name="cities skylines ii" href="game-detail.html?game=cities-skylines-ii">
+<div class="game-cover green-cover">
+                🏙️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    SIMULATION
+                </span>
+<h3>
+                    Cities: Skylines II
+                </h3>
+<p>
+                    เกมสร้างและบริหารเมือง
+                </p>
+</div>
+</a>
+<!-- 17 -->
+<a class="game-card pc-game" data-category="racing" data-name="forza horizon 5" href="game-detail.html?game=forza-horizon-5">
+<div class="game-cover orange-cover">
+                🏎️
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    Forza Horizon 5
+                </h3>
+<p>
+                    เกมแข่งรถ Open World
+                </p>
+</div>
+</a>
+<!-- 18 -->
+<a class="game-card pc-game" data-category="racing" data-name="assetto corsa competizione" href="game-detail.html?game=assetto-corsa-competizione">
+<div class="game-cover gray-cover">
+                🏁
+            </div>
+<div class="game-info">
+<span class="tag">
+                    RACING
+                </span>
+<h3>
+                    Assetto Corsa Competizione
+                </h3>
+<p>
+                    เกมแข่งรถ GT Simulator
+                </p>
+</div>
+</a>
+<!-- 19 -->
+<a class="game-card pc-game" data-category="action" data-name="counter strike 2" href="game-detail.html?game=counter-strike-2">
+<div class="game-cover blue-cover">
+                🎯
+            </div>
+<div class="game-info">
+<span class="tag">
+                    ACTION
+                </span>
+<h3>
+                    Counter-Strike 2
+                </h3>
+<p>
+                    เกม FPS แบบแข่งขัน
+                </p>
+</div>
+</a>
+<!-- 20 -->
+<a class="game-card pc-game" data-category="sport" data-name="ea sports fc 25" href="game-detail.html?game=ea-sports-fc-25">
+<div class="game-cover green-cover">
+                ⚽
+            </div>
+<div class="game-info">
+<span class="tag">
+                    SPORT
+                </span>
+<h3>
+                    EA Sports FC 25
+                </h3>
+<p>
+                    เกมฟุตบอลยอดนิยม
+                </p>
+</div>
+</a>
+</div>
+<p class="no-result" id="noPCResult">
+        ไม่พบเกมที่ค้นหา
+    </p>
+</section>
+<footer>
+<div class="footer-logo">
+        GAME<span>ZONE</span>
+</div>
+<p>
+        เว็บไซต์แนะนำเกม Mobile และ PC
+    </p>
+<p class="copyright">
+        © 2026 GAMEZONE. All Rights Reserved.
+    </p>
+</footer>
+<script>
+
+const pcSearch =
+    document.getElementById("pcSearch");
+
+const pcGames =
+    document.querySelectorAll(".pc-game");
+
+const pcFilters =
+    document.querySelectorAll(".pc-filter");
+
+let currentPCFilter = "all";
+
+
+function showPCGames() {
+
+    const search =
+        pcSearch.value.toLowerCase();
+
+    let found = 0;
+
+
+    pcGames.forEach(game => {
+
+        const name =
+            game.dataset.name.toLowerCase();
+
+        const category =
+            game.dataset.category;
+
+
+        const matchSearch =
+            name.includes(search);
+
+        const matchCategory =
+            currentPCFilter === "all" ||
+            category === currentPCFilter;
+
+
+        if (matchSearch && matchCategory) {
+
+            game.style.display = "block";
+
+            found++;
+
+        } else {
+
+            game.style.display = "none";
+
+        }
+
+    });
+
+
+    document.getElementById("noPCResult").style.display =
+        found === 0 ? "block" : "none";
+
+}
+
+
+pcSearch.addEventListener(
+    "input",
+    showPCGames
+);
+
+
+pcFilters.forEach(button => {
+
+    button.addEventListener("click", function() {
+
+        pcFilters.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        currentPCFilter =
+            this.dataset.filter;
+
+        showPCGames();
+
+    });
+
+});
+
+</script>
+<script src="chatbot-widget.js"></script>
+<script src="chatbot.js"></script>
+</body>
+</html>
